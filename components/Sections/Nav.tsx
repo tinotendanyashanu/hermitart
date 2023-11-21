@@ -42,22 +42,22 @@ export default function Nav() {
         </div>
         <div className="hidden sm:flex gap-4">
           <NavbarItem isActive>
-            <Link href="#" aria-current="page">
+            <Link href="./" aria-current="page">
               Home
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="ArtGallery">
               Gallery
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="Shop">
               Shop
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="About">
               About
             </Link>
           </NavbarItem>
